@@ -1,0 +1,65 @@
+.about{
+    padding-bottom:2rem;
+
+    &__bio-image{
+        height: 30vh;
+        width: 100%;
+        background: 
+        linear-gradient(
+        to left,
+        rgba(black, 0.9),
+        rgba(grey, 0.2),
+    ),
+    url('../img/bio.jpg') center top; 
+    background-size:cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    p{
+        
+        margin-bottom: 2rem; 
+    }
+    }
+
+    &__bio{
+        width: 80%;
+        text-align: center;
+     
+        .text-secondary{
+            padding-bottom: 1rem;
+        }
+    }
+    .jobs{
+        width: 60vh;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        &_job{
+            border-radius: 5px;
+            background: darken($primary-color, 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+
+            h3, h6
+            {
+                padding-top:1rem;
+            }
+            
+            p{
+                padding-top:0.3rem;
+            }
+        }
+    }
+    
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+}

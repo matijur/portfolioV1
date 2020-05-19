@@ -1,0 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(70, 10, 65, 0.9)), to(rgba(70, 10, 65, 0.2))), url("../img/main.jpeg") center top;
+  background: linear-gradient(to right, rgba(70, 10, 65, 0.9), rgba(70, 10, 65, 0.2)), url("../img/main.jpeg") center top;
+  background-size: cover;
+}
+/*# sourceMappingURL=home.css.map */
